@@ -12,6 +12,16 @@ Launch [demo](https://timprodev.github.io/m-fed-gimitest/ "Demo")
 * there are no interactions with the data - exploration should be defined before further development
 * this design is a prototype of unapproved design direction
 
+## Considerations
+* consider finalize design
+* build in print page functionality (in place of pdf download)
+
+> ## If translations
+> * page content require translations
+> * dataset require translations
+> * region specific font
+
+
 ## Authors
 
 * **Tim Schletter** - *Front End Developer*
