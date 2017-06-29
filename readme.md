@@ -2,7 +2,7 @@
 
 > This data is for placeholder use only. The data represented on this page is not valid. The creator of this page makes no warranty, representation, or guaranty as to the content, accuracy, timeliness, or completeness of any of the data provided at this website.
 
-Launch [demo](https://timprodev.github.io/m-fed-article/ "Article Demo Page")
+Launch [demo](https://timprodev.github.io/m-fed-gimitest/ "Demo")
 
 ## Caveats and considerations:
 * this is on my local environment and is not part of the CMS aythoring system
