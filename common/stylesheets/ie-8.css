@@ -1,0 +1,11 @@
+/* Global Marsh Internet Explorer Style */
+/* line 3, ../../scss/ie8/_global-marsh-ie8.scss */
+img {
+  border: none;
+}
+
+/* line 6, ../../scss/ie8/_utility-nav-ie8.scss */
+.utility-nav .search-icon.reset-submit {
+  height: 20px;
+  top: 20px;
+}

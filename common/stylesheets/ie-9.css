@@ -1,0 +1,68 @@
+/* line 44, ../../scss/ie-9.scss */
+.info-accordion .resource-filter .filter-categories li {
+  float: left;
+  clear: none;
+  padding-right: 2%;
+  width: 33%;
+}
+@media only screen and (max-width: 40em) {
+  /* line 44, ../../scss/ie-9.scss */
+  .info-accordion .resource-filter .filter-categories li {
+    width: 46%;
+  }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 57, ../../scss/ie-9.scss */
+  .office-locator {
+    min-height: 40.625rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 57, ../../scss/ie-9.scss */
+  .office-locator {
+    min-height: 75rem;
+  }
+}
+/* line 67, ../../scss/ie-9.scss */
+.office-locator .countries-list li {
+  float: left;
+  clear: none;
+  padding-right: 2%;
+  width: 16.5%;
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 67, ../../scss/ie-9.scss */
+  .office-locator .countries-list li {
+    width: 24%;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 67, ../../scss/ie-9.scss */
+  .office-locator .countries-list li {
+    width: 46%;
+  }
+}
+
+/* line 81, ../../scss/ie-9.scss */
+.slide-down-panel .slide-list {
+  margin-top: 0;
+}
+
+/* line 84, ../../scss/ie-9.scss */
+.slide-down-panel:after, .slide-down-panel:before {
+  display: none;
+}
+
+@media only screen and (min-width: 64.063em) {
+  /* line 91, ../../scss/ie-9.scss */
+  nav.open .main-nav-wrapper .slide-down-panel {
+    display: none;
+  }
+}
+
+/* line 103, ../../scss/ie-9.scss */
+.opt-in-modal .form-cntr .radioInputlist label:after {
+  margin-top: 10px;
+  font-size: 25px;
+}

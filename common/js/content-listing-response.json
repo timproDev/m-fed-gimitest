@@ -1,0 +1,45 @@
+{
+  "total": 1000,
+  "moreResults": true,
+  "listingType": "mediacenter",
+  "sort": {
+  	"rootName": "Sort By",
+  	"tags": {
+  		"/json/sort/sort1.json": "Date Added",
+  		"/json/sort/sort2": "Sort 2",
+  		"/json/sort/sort3": "Sort 3"
+  	}
+  },
+  "filters": {
+    "0": {
+      "rootPath": "/industry",
+      "rootName": "Industry",
+      "tags": {
+        "/json/industry/tag1.json": "Tag 1",
+        "/json/industry/tag2.json": "Tag 2"
+      }
+    },
+    "1": {
+      "rootPath": "/region",
+      "rootName": "Region",
+      "tags": {
+        "/json/region/tag3.json": "Tag 3",
+        "/json/region/tag4.json": "Tag 4"
+      }
+    },
+    "2": {
+      "rootPath": "/riskissue",
+      "rootName": "Risk Issue",
+      "tags": {
+        "/json/riskissue/tag5.json": "Tag 5",
+        "/json/riskissue/tag6.json": "Tag 6",
+        "/json/riskissue/tag7.json": "Tag 7",
+        "/json/riskissue/tag8.json": "Tag 8"
+      }
+    }
+  },
+  "filteredBy": {
+  },
+  "clearAll": "",
+  "href": "php-components/components/resource-centers/insights-center/infinite-scroll-content/resource-set-page-1.php"
+}

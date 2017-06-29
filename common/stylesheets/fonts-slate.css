@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Slate W02 Light";
+  src: url("fonts/SlateW02Light.eot?#iefix");
+  src: url("fonts/SlateW02Light.eot?#iefix") format("eot"), url("fonts/SlateW02Light.woff2") format("woff2"), url("fonts/SlateW02Light.woff") format("woff"), url("fonts/SlateW02Light.ttf") format("truetype"), url("fonts/SlateW02Light.svg#SlateW02Light") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Light Italic";
+  src: url("fonts/SlateW02LightItalic.eot?#iefix");
+  src: url("fonts/SlateW02LightItalic.eot?#iefix") format("eot"), url("fonts/SlateW02LightItalic.woff2") format("woff2"), url("fonts/SlateW02LightItalic.woff") format("woff"), url("fonts/SlateW02LightItalic.ttf") format("truetype"), url("fonts/SlateW02LightItalic.svg#SlateW02LightItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Book";
+  src: url("fonts/SlateW02Book.eot?#iefix");
+  src: url("fonts/SlateW02Book.eot?#iefix") format("eot"), url("fonts/SlateW02Book.woff2") format("woff2"), url("fonts/SlateW02Book.woff") format("woff"), url("fonts/SlateW02Book.ttf") format("truetype"), url("fonts/SlateW02Book.svg#SlateW02Book") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Book Italic";
+  src: url("fonts/SlateW02BookItalic.eot?#iefix");
+  src: url("fonts/SlateW02BookItalic.eot?#iefix") format("eot"), url("fonts/SlateW02BookItalic.woff2") format("woff2"), url("fonts/SlateW02BookItalic.woff") format("woff"), url("fonts/SlateW02BookItalic.ttf") format("truetype"), url("fonts/SlateW02BookItalic.svg#SlateW02BookItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Regular";
+  src: url("fonts/SlateW02Regular.eot?#iefix");
+  src: url("fonts/SlateW02Regular.eot?#iefix") format("eot"), url("fonts/SlateW02Regular.woff2") format("woff2"), url("fonts/SlateW02Regular.woff") format("woff"), url("fonts/SlateW02Regular.ttf") format("truetype"), url("fonts/SlateW02Regular.svg#SlateW02Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Regular Italic";
+  src: url("fonts/SlateW02RegularItalic.eot?#iefix");
+  src: url("fonts/SlateW02RegularItalic.eot?#iefix") format("eot"), url("fonts/SlateW02RegularItalic.woff2") format("woff2"), url("fonts/SlateW02RegularItalic.woff") format("woff"), url("fonts/SlateW02RegularItalic.ttf") format("truetype"), url("fonts/SlateW02RegularItalic.svg#SlateW02RegularItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Medium";
+  src: url("fonts/SlateW02Medium.eot?#iefix");
+  src: url("fonts/SlateW02Medium.eot?#iefix") format("eot"), url("fonts/SlateW02Medium.woff2") format("woff2"), url("fonts/SlateW02Medium.woff") format("woff"), url("fonts/SlateW02Medium.ttf") format("truetype"), url("fonts/SlateW02Medium.svg#SlateW02Medium") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Medium Italic";
+  src: url("fonts/SlateW02MediumItalic.eot?#iefix");
+  src: url("fonts/SlateW02MediumItalic.eot?#iefix") format("eot"), url("fonts/SlateW02MediumItalic.woff2") format("woff2"), url("fonts/SlateW02MediumItalic.woff") format("woff"), url("fonts/SlateW02MediumItalic.ttf") format("truetype"), url("fonts/SlateW02MediumItalic.svg#SlateW02MediumItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Bold";
+  src: url("fonts/SlateW02Bold.eot?#iefix");
+  src: url("fonts/SlateW02Bold.eot?#iefix") format("eot"), url("fonts/SlateW02Bold.woff2") format("woff2"), url("fonts/SlateW02Bold.woff") format("woff"), url("fonts/SlateW02Bold.ttf") format("truetype"), url("fonts/SlateW02Bold.svg#SlateW02Bold") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Bold Italic";
+  src: url("fonts/SlateW02BoldItalic.eot?#iefix");
+  src: url("fonts/SlateW02BoldItalic.eot?#iefix") format("eot"), url("fonts/SlateW02BoldItalic.woff2") format("woff2"), url("fonts/SlateW02BoldItalic.woff") format("woff"), url("fonts/SlateW02BoldItalic.ttf") format("truetype"), url("fonts/SlateW02BoldItalic.svg#SlateW02BoldItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Black";
+  src: url("fonts/SlateW02Black.eot?#iefix");
+  src: url("fonts/SlateW02Black.eot?#iefix") format("eot"), url("fonts/SlateW02Black.woff2") format("woff2"), url("fonts/SlateW02Black.woff") format("woff"), url("fonts/SlateW02Black.ttf") format("truetype"), url("fonts/SlateW02Black.svg#SlateW02Black") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Black Italic";
+  src: url("fonts/SlateW02BlackItalic.eot?#iefix");
+  src: url("fonts/SlateW02BlackItalic.eot?#iefix") format("eot"), url("fonts/SlateW02BlackItalic.woff2") format("woff2"), url("fonts/SlateW02BlackItalic.woff") format("woff"), url("fonts/SlateW02BlackItalic.ttf") format("truetype"), url("fonts/SlateW02BlackItalic.svg#SlateW02BlackItalic") format("svg");
+}

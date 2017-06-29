@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Slate W02 Light";
+  src: url("fonts/FrutigerNextW06Light.eot?#iefix");
+  src: url("fonts/FrutigerNextW06Light.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06Light.woff2") format("woff2"), url("fonts/FrutigerNextW06Light.woff") format("woff"), url("fonts/FrutigerNextW06Light.ttf") format("truetype"), url("fonts/FrutigerNextW06Light.svg#FrutigerNextW06Light") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Light Italic";
+  src: url("fonts/FrutigerNextW06LightItalic.eot?#iefix");
+  src: url("fonts/FrutigerNextW06LightItalic.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06LightItalic.woff2") format("woff2"), url("fonts/FrutigerNextW06LightItalic.woff") format("woff"), url("fonts/FrutigerNextW06LightItalic.ttf") format("truetype"), url("fonts/FrutigerNextW06LightItalic.svg#FrutigerNextW06LightItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02";
+  src: url("fonts/FrutigerNextW06Regular.eot?#iefix");
+  src: url("fonts/FrutigerNextW06Regular.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06Regular.woff2") format("woff2"), url("fonts/FrutigerNextW06Regular.woff") format("woff"), url("fonts/FrutigerNextW06Regular.ttf") format("truetype"), url("fonts/FrutigerNextW06Regular.svg#FrutigerNextW06Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Italic";
+  src: url("fonts/FrutigerNextW06RegularItalic.eot?#iefix");
+  src: url("fonts/FrutigerNextW06RegularItalic.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06RegularItalic.woff2") format("woff2"), url("fonts/FrutigerNextW06RegularItalic.woff") format("woff"), url("fonts/FrutigerNextW06RegularItalic.ttf") format("truetype"), url("fonts/FrutigerNextW06RegularItalic.svg#FrutigerNextW06RegularItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Book";
+  src: url("fonts/FrutigerNextW06Regular.eot?#iefix");
+  src: url("fonts/FrutigerNextW06Regular.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06Regular.woff2") format("woff2"), url("fonts/FrutigerNextW06Regular.woff") format("woff"), url("fonts/FrutigerNextW06Regular.ttf") format("truetype"), url("fonts/FrutigerNextW06Regular.svg#FrutigerNextW06Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Book Italic";
+  src: url("fonts/FrutigerNextW06RegularItalic.eot?#iefix");
+  src: url("fonts/FrutigerNextW06RegularItalic.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06RegularItalic.woff2") format("woff2"), url("fonts/FrutigerNextW06RegularItalic.woff") format("woff"), url("fonts/FrutigerNextW06RegularItalic.ttf") format("truetype"), url("fonts/FrutigerNextW06RegularItalic.svg#FrutigerNextW06RegularItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Medium";
+  src: url("fonts/FrutigerNextW06Medium.eot?#iefix");
+  src: url("fonts/FrutigerNextW06Medium.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06Medium.woff2") format("woff2"), url("fonts/FrutigerNextW06Medium.woff") format("woff"), url("fonts/FrutigerNextW06Medium.ttf") format("truetype"), url("fonts/FrutigerNextW06Medium.svg#FrutigerNextW06Medium") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Medium Italic";
+  src: url("fonts/FrutigerNextW06MediumItalic.eot?#iefix");
+  src: url("fonts/FrutigerNextW06MediumItalic.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06MediumItalic.woff2") format("woff2"), url("fonts/FrutigerNextW06MediumItalic.woff") format("woff"), url("fonts/FrutigerNextW06MediumItalic.ttf") format("truetype"), url("fonts/FrutigerNextW06MediumItalic.svg#FrutigerNextW06MediumItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Bold";
+  src: url("fonts/FrutigerNextW06Bold.eot?#iefix");
+  src: url("fonts/FrutigerNextW06Bold.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06Bold.woff2") format("woff2"), url("fonts/FrutigerNextW06Bold.woff") format("woff"), url("fonts/FrutigerNextW06Bold.ttf") format("truetype"), url("fonts/FrutigerNextW06Bold.svg#FrutigerNextW06Bold") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Bold Italic";
+  src: url("fonts/FrutigerNextW06BoldItalic.eot?#iefix");
+  src: url("fonts/FrutigerNextW06BoldItalic.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06BoldItalic.woff2") format("woff2"), url("fonts/FrutigerNextW06BoldItalic.woff") format("woff"), url("fonts/FrutigerNextW06BoldItalic.ttf") format("truetype"), url("fonts/FrutigerNextW06BoldItalic.svg#FrutigerNextW06BoldItalic") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Black";
+  src: url("fonts/FrutigerNextW06Bold.eot?#iefix");
+  src: url("fonts/FrutigerNextW06Bold.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06Bold.woff2") format("woff2"), url("fonts/FrutigerNextW06Bold.woff") format("woff"), url("fonts/FrutigerNextW06Bold.ttf") format("truetype"), url("fonts/FrutigerNextW06Bold.svg#FrutigerNextW06Bold") format("svg");
+}
+
+@font-face {
+  font-family: "Slate W02 Black Italic";
+  src: url("fonts/FrutigerNextW06BoldItalic.eot?#iefix");
+  src: url("fonts/FrutigerNextW06BoldItalic.eot?#iefix") format("eot"), url("fonts/FrutigerNextW06BoldItalic.woff2") format("woff2"), url("fonts/FrutigerNextW06BoldItalic.woff") format("woff"), url("fonts/FrutigerNextW06BoldItalic.ttf") format("truetype"), url("fonts/FrutigerNextW06BoldItalic.svg#FrutigerNextW06BoldItalic") format("svg");
+}

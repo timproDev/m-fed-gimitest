@@ -1,0 +1,60 @@
+/* Rims test CSS 
+
+orange
+blue
+purple
+red
+yellow
+green
+turquoise
+grey
+dark-blue
+
+*/
+/* line 16, ../../../scss/microsites/rims-app.scss */
+body.rims .utility-nav {
+  display: none;
+}
+/* line 19, ../../../scss/microsites/rims-app.scss */
+body.rims #mainNav {
+  background: white;
+}
+/* line 22, ../../../scss/microsites/rims-app.scss */
+body.rims .common-content, body.rims .richtext {
+  background-color: #ffffff;
+  padding: 45px;
+}
+/* line 26, ../../../scss/microsites/rims-app.scss */
+body.rims footer {
+  background: #ffffff;
+}
+/* line 29, ../../../scss/microsites/rims-app.scss */
+body.rims .info-accordion .acc-inner-content {
+  background: #ffffff;
+}
+/* line 35, ../../../scss/microsites/rims-app.scss */
+body.rims.orange {
+  background-color: #fff7e7;
+}
+/* line 38, ../../../scss/microsites/rims-app.scss */
+body.rims.orange .hero-menu {
+  background: orange;
+  background-image: none !important;
+}
+/* line 44, ../../../scss/microsites/rims-app.scss */
+body.rims.orange .rt-rail-highlight .box {
+  background: #feefd1;
+  border: none;
+}
+/* line 48, ../../../scss/microsites/rims-app.scss */
+body.rims.orange .rt-rail-highlight .text-area {
+  padding: 18px;
+}
+/* line 50, ../../../scss/microsites/rims-app.scss */
+body.rims.orange .rt-rail-highlight .text-area a {
+  color: #fbae17;
+}
+/* line 59, ../../../scss/microsites/rims-app.scss */
+body.rims.orange .info-accordion .resource-filter .filter-container a {
+  background: white;
+}

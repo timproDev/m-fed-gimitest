@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Slate W02 Light";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Slate W02 Light Italic";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Slate W02 Book";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Slate W02 Book Italic";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Slate W02 Regular";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Slate W02 Regular Italic";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Slate W02 Medium";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Slate W02 Medium Italic";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Slate W02 Bold";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Slate W02 Bold Italic";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Slate W02 Black";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Slate W02 Black Italic";
+  src: local("Arial");
+  src: local("Verdana");
+  src: local(sans-serif);
+  font-weight: bold;
+  font-style: italic;
+}

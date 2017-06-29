@@ -1,0 +1,43 @@
+/* Add IE10, IE11, and general IE hacks in here
+*  For IE8 and IE9, use the conditional stylesheets
+*  Use the media query hack technique here only
+*
+*  IE media query example and browser selection
+*   **For IE10 and up**
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+         //IE10+ specific styles go here 
+    }
+	@media screen and (min-width:0\0) {
+		//IE9+ specific styles go here
+	}
+*
+*/
+@media screen and (min-width: 0 \0) {
+  /* line 17, ../../scss/ie.scss */
+  .promo-box img {
+    border-left: 1px solid transparent;
+  }
+
+  /* line 22, ../../scss/ie.scss */
+  .carousel-panel .slick-prev, .carousel-panel .slick-next {
+    height: 141px;
+  }
+
+  /* line 37, ../../scss/ie.scss */
+  .promo-slider-wrap .promo-slider {
+    height: 152px;
+  }
+}
+@media screen and (min-width: 0 \0) and (max-width: 64em) {
+  /* line 53, ../../scss/ie.scss */
+  .promo-slider-wrap .promo-slider {
+    height: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 70, ../../scss/ie.scss */
+  .promo-slider .carousel-panel .slide {
+    margin: 0px 2px;
+    margin-left: 1px;
+  }
+}
