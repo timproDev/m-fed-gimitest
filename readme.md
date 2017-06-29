@@ -7,6 +7,7 @@ Launch [demo](https://timprodev.github.io/m-fed-gimitest/ "Demo")
 ## Caveats and considerations:
 * this is on my local environment and is not part of the CMS aythoring system
 * this is not device/browser tested
+* this particular page is not responsive, though the functionality is available
 * this approach supports one language
 * there are no interactions with the data - exploration should be defined before further development
 * this design is a prototype of unapproved design direction
