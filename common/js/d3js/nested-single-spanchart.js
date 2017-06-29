@@ -10,12 +10,21 @@ function spanChart(cmargin){
 
 	var chartContainer = d3.select(settings.chartContainerClass);
 
-	var margin = {
+if (cmargin !== undefined) {
+		var margin = {
 			top:cmargin.span.top,
 			left:cmargin.span.left,
 			right:cmargin.span.right,
 			bottom:cmargin.span.bottom
 		};
+	} else {
+		var margin = {
+			top:20,
+			left:40,
+			right:20,
+			bottom:20
+		};
+	}
 
 	var w = chartContainer.node().clientWidth - margin.left - margin.right,
 			h = 400 - margin.top - margin.bottom;

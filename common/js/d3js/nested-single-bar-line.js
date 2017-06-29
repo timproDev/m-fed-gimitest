@@ -11,12 +11,21 @@ function barLineChart(cmargin) {
 
 	var chartContainer = d3.select(settings.chartContainerClass).html('');	
 
-	var margin = {
+if (cmargin !== undefined) {
+		var margin = {
 			top:cmargin.line.top,
 			left:cmargin.line.left,
 			right:cmargin.line.right,
 			bottom:cmargin.line.bottom
 		};
+	} else {
+		var margin = {
+			top:20,
+			left:40,
+			right:20,
+			bottom:20
+		};
+	}
 
 	var w = chartContainer.node().clientWidth - margin.left - margin.right,
 			h = 400 - margin.top - margin.bottom;
@@ -77,12 +86,12 @@ function barLineChart(cmargin) {
 				.enter()
 				.append("div.cov-div");			
 
-			divs
-				.append("h2.title")
-				.text(function(d){
-					return "timmy";
+			// divs
+			// 	.append("h2.title")
+			// 	.text(function(d){
+			// 		return "timmy";
 					// return d.key;			
-				});
+				// });
 
 			var covSvg = divs				
 				.append("svg")

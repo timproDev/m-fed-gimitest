@@ -25,28 +25,16 @@
 	// remove var, gove global access
 	cmargin = {
 		bar:{
-			top:20,
-			left:40,
-			right:80,
-			bottom:60
+			top:20,left:40,right:80,bottom:60
 		},
 		slope:{
-			top:50,
-			left:40,
-			right:40,
-			bottom:100
+			top:50,left:40,right:40,bottom:100
 		},
 		span:{
-			top:40,
-			left:40,
-			right:60,
-			bottom:110
+			top:40,left:40,right:60,bottom:110
 		},
 		line:{
-			top:40,
-			left:40,
-			right:80,
-			bottom:60
+			top:40,left:40,right:80,bottom:60
 		}			
 	};
 
@@ -107,7 +95,7 @@
 	slopeGraph(slope_opts.slope_six, cmargin);
 	slopeGraph(slope_opts.slope_seven, cmargin);
 	slopeGraph(slope_opts.slope_eigth, cmargin);
-
+	barLineDualGraph();
 
 
 

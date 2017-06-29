@@ -21,6 +21,11 @@ Launch [demo](https://timprodev.github.io/m-fed-gimitest/ "Demo")
 > * dataset require translations
 > * region specific font
 
+## Enhancements
+* tooltip/hover state
+* annotations
+* colorize values
+
 
 ## Authors
 

@@ -5926,60 +5926,64 @@ form#mar-af {
   font-size: 1rem;
 }
 /* line 32, ../../scss/components/_d3-styles.scss */
-.d3-style-container .y-axis .tick {
+.d3-style-container .y-axis .tick, .d3-style-container .y-axis-two .tick {
   opacity: .65;
 }
 /* line 34, ../../scss/components/_d3-styles.scss */
-.d3-style-container .y-axis .tick text {
+.d3-style-container .y-axis .tick text, .d3-style-container .y-axis-two .tick text {
   text-anchor: start;
   font-size: .65rem;
 }
 /* line 38, ../../scss/components/_d3-styles.scss */
-.d3-style-container .y-axis .tick line {
+.d3-style-container .y-axis .tick line, .d3-style-container .y-axis-two .tick line {
   stroke-width: 1;
   stroke-dasharray: 2;
   stroke: #45555f;
   stroke-opacity: .5;
 }
 /* line 44, ../../scss/components/_d3-styles.scss */
-.d3-style-container .y-axis .tick.zilch line {
+.d3-style-container .y-axis .tick.zilch line, .d3-style-container .y-axis-two .tick.zilch line {
   stroke-width: 1;
   stroke-dasharray: 0;
 }
 /* line 52, ../../scss/components/_d3-styles.scss */
+.d3-style-container .y-axis-two .tick line {
+  display: none;
+}
+/* line 58, ../../scss/components/_d3-styles.scss */
 .d3-style-container .x-axis .tick line {
   stroke-width: 1;
   stroke: #45555f;
   opacity: .25;
 }
-/* line 57, ../../scss/components/_d3-styles.scss */
+/* line 63, ../../scss/components/_d3-styles.scss */
 .d3-style-container .x-axis text {
   transform: rotate(-30deg);
   text-anchor: middle;
   font-size: .65rem;
   text-transform: uppercase;
 }
-/* line 65, ../../scss/components/_d3-styles.scss */
+/* line 71, ../../scss/components/_d3-styles.scss */
 .d3-style-container .domain {
   display: none;
 }
-/* line 72, ../../scss/components/_d3-styles.scss */
+/* line 79, ../../scss/components/_d3-styles.scss */
 .d3-style-container .slope-graph-c .x-axis text {
   transform: rotate(0deg);
   text-anchor: end;
   font-size: .65rem;
 }
-/* line 77, ../../scss/components/_d3-styles.scss */
+/* line 84, ../../scss/components/_d3-styles.scss */
 .d3-style-container .slope-graph-c .x-axis .txt-start text {
   text-anchor: start;
 }
-/* line 81, ../../scss/components/_d3-styles.scss */
+/* line 88, ../../scss/components/_d3-styles.scss */
 .d3-style-container .slope-graph-c .x-axis .tick line {
   stroke-width: 1;
   stroke: #45555f;
   opacity: 0;
 }
-/* line 89, ../../scss/components/_d3-styles.scss */
+/* line 96, ../../scss/components/_d3-styles.scss */
 .d3-style-container .slope-graph-c text.c-title {
   padding: 0;
   font-size: 1rem;
@@ -5988,11 +5992,11 @@ form#mar-af {
   text-anchor: middle;
   font-family: "Slate W02 Light", Arial, sans-serif;
 }
-/* line 98, ../../scss/components/_d3-styles.scss */
+/* line 105, ../../scss/components/_d3-styles.scss */
 .d3-style-container .slope-graph-c .g-dots-slope {
   fill: #C60651;
 }
-/* line 106, ../../scss/components/_d3-styles.scss */
+/* line 113, ../../scss/components/_d3-styles.scss */
 .d3-style-container .path,
 .d3-style-container .cov-path,
 .d3-style-container .coverage-path,
@@ -6001,27 +6005,40 @@ form#mar-af {
   stroke: #C60651;
   stroke-width: 1;
 }
-/* line 116, ../../scss/components/_d3-styles.scss */
+/* line 123, ../../scss/components/_d3-styles.scss */
 .d3-style-container .cov-dot,
 .d3-style-container .comp-rect {
   fill: #C60651;
 }
-/* line 123, ../../scss/components/_d3-styles.scss */
+/* line 130, ../../scss/components/_d3-styles.scss */
 .d3-style-container .c-grid .rowblock-3, .d3-style-container .c-grid .rowblock-5 {
   display: inline-block;
   margin-right: 1.5%;
 }
-/* line 126, ../../scss/components/_d3-styles.scss */
+/* line 133, ../../scss/components/_d3-styles.scss */
 .d3-style-container .c-grid .rowblock-3:last-of-type, .d3-style-container .c-grid .rowblock-5:last-of-type {
   margin-right: 0;
 }
-/* line 130, ../../scss/components/_d3-styles.scss */
+/* line 137, ../../scss/components/_d3-styles.scss */
 .d3-style-container .c-grid .rowblock-3 {
   width: 32%;
 }
-/* line 133, ../../scss/components/_d3-styles.scss */
+/* line 140, ../../scss/components/_d3-styles.scss */
 .d3-style-container .c-grid .rowblock-5 {
   width: 18.5%;
+}
+/* line 154, ../../scss/components/_d3-styles.scss */
+.d3-style-container .comp-surplus .y-axis text {
+  text-anchor: end;
+}
+/* line 159, ../../scss/components/_d3-styles.scss */
+.d3-style-container .comp-surplus .x-axis text {
+  transform: rotate(-90deg);
+  text-anchor: end;
+}
+/* line 163, ../../scss/components/_d3-styles.scss */
+.d3-style-container .comp-surplus .x-axis line {
+  display: none;
 }
 
 /* App-basic Utility Nav */
