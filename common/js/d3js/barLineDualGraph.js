@@ -51,8 +51,6 @@ function barLineDualGraph(cmargin) {
 			d.qYear = d.quarter + " " + d.year;
 		});	
 				
-		// console.log(data);
-
 		// region = misc
 		var dbRegion = data.filter(function(d){
 			return d.region === settings.selectedRegion;
@@ -182,13 +180,14 @@ function barLineDualGraph(cmargin) {
 				return h - yscale2(d.value);
 			});
 
+
 		///////////////
 		//// Lines ////
 		///////////////
 
 		var lineGen2 = d3.line()
 			// added integer to center dot with bar
-				.x( function(d){ return xscale(d.qYear)+22; })
+				.x( function(d){ return xscale(d.qYear)+(xscale.bandwidth()/2); })
 				.y( function(d){ return yscale(d.value); });
 
 		covSvg.append("path.cov-path")
@@ -196,34 +195,44 @@ function barLineDualGraph(cmargin) {
 					return lineGen2(d.values);
 				});
 
-		covSvg
-			.selectAll(".cov-dot")
+		//////////////
+		//// Dots ////
+		//////////////
+
+		var gDots = covSvg
+			.selectAll("g.cov-g-dot")
 			.data(dbRegionAndCoverage)
 			.enter()		
-			.append("circle.cov-dot")
+			.append("g.cov-g-dot");			
+
+		gDots.
+			append("circle.cov-dot")
 			.attr("r",5)
 			.attr("cx",function(d){
 					// added integer to center dot with bar
-				return xscale(d.qYear)+22;
+				return xscale(d.qYear)+(xscale.bandwidth()/2);
 			})
 			.attr("cy",function(d){
 				return yscale(d.value);
 			});
 
+		////////////////
+		//// Labels ////
+		////////////////
 
+	gRects.append("text.bar-label")
+      .attr("x", function(d) { return xscale(d.qYear) + xscale.bandwidth()/2; })
+      .attr("y", function(d) { return h; })
+      .attr("dy", "-10px")
+      .attr("text-anchor","middle")
+      .text(function(d) { return d.value; });
 
-		// gRects.append("text.bar-label")
-  //     .attr("x", function(d) { return xscale(d.qYear) + xscale.bandwidth()/2; })
-  //     .attr("y", function(d) { return yscale(d.value); })
-  //     .attr("dy", function(d){
-  //     	if(d.value > 0) {	      		
-  //     		return "-10px";
-  //     	} else {
-  //     		return "20px";
-  //     	}
-  //     })
-  //     .attr("text-anchor","middle")
-  //     .text(function(d) { return d.value; });
+  gDots.append("text.dot-label")
+      .attr("x", function(d) { return xscale(d.qYear) + xscale.bandwidth()/2; })
+      .attr("y", function(d) { return yscale(d.value); })
+      .attr("dy", "-10px")
+      .attr("text-anchor","middle")
+      .text(function(d) { return d.value; });
 	  
 	}
 }
